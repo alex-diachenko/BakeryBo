@@ -1,0 +1,116 @@
+.first_block .where_buy {
+    position: relative;
+    text-align: center;
+}
+.first_block .where_buy {
+    font-size: 0;
+    padding-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.first_block .where_buy li {
+    margin: 0 15px 0 15px;
+}
+.first_block .where_buy li a {
+    display: block;
+    font-size: 14px;
+    line-height: 36px;
+    letter-spacing: 0.35px;
+    width: 160px;
+    height: 40px;
+    margin: 0 auto;
+    border: 2px solid #ffffff;
+}
+.first_block .where_buy li a:hover, .first_block .where_buy .third {
+    color: #010000;
+    background-color: #ffffff;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+.first_block .arrow {
+    padding: 100px 0 31px 0;
+    position: relative;
+}
+.arrow {
+    margin: 0 auto;
+    position: relative;
+}
+.arrow a {
+    display: block;
+    width: 40px;
+    height: 21px;
+    margin: 0 auto;
+    background-image: url('../images/arrow_white.png');
+}
+
+.second_block .text .arrow {
+    padding: 20px 0 25px 0;
+    position: relative;
+}
+.second_block .text .arrow a {
+    display: block;
+    width: 40px;
+    height: 21px;
+    margin: 0 auto;
+    background-image: url('../images/arrow_black.png');
+}
+
+.third_block_main .container .where_buy {
+    text-align: center;
+    font-size: 0;
+    padding: 43px 0 65px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.third_block_main .container .where_buy li {
+    margin: 0 15px 0 15px; 
+}
+.third_block_main .container .where_buy li a {
+    display: block;
+    font-size: 14px;
+    line-height: 36px;
+    letter-spacing: 0.35px;
+    width: 160px;
+    height: 40px;
+    margin: 0 auto;
+    color: #081013;
+    border: 2px solid #000000;
+}
+.third_block_main .container .where_buy li a:hover, .third_block_main .container .where_buy .third {
+    color: #ffffff;
+    background-color: #081013;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+.fourth_block .arrow {
+    padding: 0 0 53px 0;
+    position: relative;
+}
+.fourth_block .arrow a {
+    display: block;
+    width: 40px;
+    height: 21px;
+    margin: 0 auto;
+    background-image: url('../images/arrow_white.png');
+}
+.fifth_block .container .arrow {
+    padding: 14px 0 54px 0;
+    position: relative;
+}
+.fifth_block .container .arrow a {
+        display: block;
+        width: 40px;
+        height: 21px;
+        margin: 0 auto;
+        background-image: url('../images/arrow_black.png');
+}

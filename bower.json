@@ -1,0 +1,21 @@
+{
+  "name": "bakerybo",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Alexander Diachenko"
+  ],
+  "license": "ISC",
+  "homepage": "https://alex-diachenko.github.io/BakeryBo/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "*",
+    "jquery": "2.*"
+  }
+}

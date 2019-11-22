@@ -1,0 +1,170 @@
+
+@media screen and (max-width: 1199px) {
+    .second_block .container .facts {
+        display: none;
+    }
+    .second_block img {
+        display: none;
+    }
+    .second_block .container .facts_mob {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .second_block .container .facts_mob ul {
+        padding: 0;
+    }
+}
+@media screen and (max-width: 1130px) {
+    .fifth_block .container .information>div {
+        width: 250px;
+    }
+    footer .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .sixth_block .container .left {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+@media screen and (max-width: 999px) {
+    .menu__icon{
+       display: inline-block;
+    }
+    .menu__links {
+        position: absolute;
+        display: none;
+        top: 58px;
+        right: 0;
+        left: 0;
+        margin-top: 52px;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 1000;
+        overflow: auto;
+    }
+    .menu__links-item {
+        display: block;
+        padding: 10px 0;
+        text-align: center;
+        color: #ffffff;
+    }
+  }
+@media screen and (max-width: 890px) {
+    .first_block .big_text .big_text1 {
+        font-size: 35px;
+    }
+    .first_block .big_text .big_text2 {
+        font-size: 30px;
+    }
+    .third_block_main .container .main_info .owl-carousel .owl-prev {
+        position: absolute;
+        left: -20px
+    }
+    .third_block_main .container .main_info .owl-carousel .owl-next {
+        right: -20px;
+    }
+    .third_block_main .container .main_info .owl-carousel .owl-dots {
+        display: none;
+    }
+}
+@media screen and (max-width: 810px) {
+    .third_block_main .container .main_info .owl-carousel .owl-prev, .third_block_main .container .main_info .owl-carousel .owl-next {
+        display: none;
+    }
+    .third_block_main .container .main_info .owl-carousel .owl-dots {
+        display: block;
+    }
+}
+@media screen and (max-width: 600px) {
+    .fifth_block .container .information>div {
+        width: 250px;
+    }
+    .first_block .big_text .big_text1 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .first_block .big_text .big_text2 {
+        font-size: 25px;
+        line-height: 45px;
+    }
+    .first_block .middle_text {
+        font-size: 16px;
+        line-height: 32px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .fifth_block .container .information>div {
+        width: 190px;
+    }
+    .sixth_block .container .right {
+        display: none;
+    }
+    .first_block .where_buy li a {
+        width: 120px;
+    }
+    .fifth_block .container .where_buy li a {
+        width: 120px;
+    }
+    .third_block_main .container .where_buy li a {
+        width: 120px;
+    }
+    .sixth_block .container .left form a {
+        width: 120px;
+    }
+    .sixth_block .container .left form .download-button {
+        width: 120px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .fifth_block .container .information>div {
+        width: 160px;
+    }
+    .fifth_block .container .where_buy li a {
+        width: 135px;
+    }
+    .third_block_main .container .where_buy li a {
+        width: 135px;
+    }
+    .sixth_block .container .left form a {
+        width: 135px;
+    }
+    .sixth_block .container .left form .download-button {
+        width: 135px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .sixth_block .container .left form {
+        width: 280px;
+    }
+    .sixth_block .container .left form input[type="email"] {
+        width: 260px;
+    }
+    .first_block .big_text .big_text1 {
+        font-size: 30px;
+    }
+    .first_block .big_text .big_text2 {
+        font-size: 25px;
+    }
+    .first_block .middle_text {
+        font-size: 16px;
+    }
+    .fifth_block .container .where_buy li a {
+        width: 120px;
+    }
+    .third_block_main .container .where_buy li a {
+        width: 120px;
+    }
+    .sixth_block .container .left form a {
+        width: 120px;
+    }
+    .sixth_block .container .left form .download-button {
+        width: 120px;
+    }
+}
+
+
+
+
+
+

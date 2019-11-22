@@ -1,0 +1,129 @@
+.fourth_block .shops {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    max-width: 740px;
+    padding: 0 0 15px 0;
+    font-size: 0;
+    margin: auto;
+} 
+.fourth_block .shops li {
+    width: 160px;
+    height: 60px; 
+    display: block;
+    margin: 0 10px 20px 10px;
+}
+.fourth_block .shops li {
+    background: url('../images/winn_d.png') no-repeat center;
+}
+.fourth_block .shops li+li {
+    background: url('../images/walmart.png') no-repeat center;
+}
+.fourth_block .shops li+li+li {
+    background: url('../images/walgreens.png') no-repeat center;
+}
+.fourth_block .shops li+li+li+li {
+    background: url('../images/publix.png') no-repeat center;
+}
+.fourth_block .shops li+li+li+li+li {
+    background: url('../images/meijer.png') no-repeat center;
+}
+.fourth_block .shops li+li+li+li+li+li {
+    background: url('../images/fred_meyer.png') no-repeat center;
+}
+.fourth_block .shops li+li+li+li+li+li+li {
+    background: url('../images/whole_f.png') no-repeat center;
+}
+.fourth_block .shops li+li+li+li+li+li+li+li {
+    background: url('../images/safeway.png') no-repeat center;
+}
+.fourth_block .shops img {
+    margin: 0 15px 36px 15px;
+    display: inline-block;
+    vertical-align: middle;
+    opacity: 1;
+}
+
+/* fifth block */
+
+.fifth_block .container .information {
+    width:100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+}
+.fifth_block .container .information {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+.fifth_block .container .information>div {
+    width: 185px;
+    padding: 10px 0 10px 0;
+}
+.fifth_block .container .information>div .name {
+    margin: 21px 0 3px 0; 
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    width: 100%;
+}
+.fifth_block .container .information>div .info {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-size: 14px;
+    line-height: 18px;
+    width: 149px;
+    margin: 0 auto;
+    font-weight: 600;
+    letter-spacing: 0.35px;
+}
+.fifth_block .container .information .three .info {
+    min-width: 153px;
+}
+.fifth_block .container .information>div .image_wrap {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+}
+.fifth_block .container .information .one .image_wrap {
+    background: url('../images/seeds.png') no-repeat center;
+}
+.fifth_block .container .information .two .image_wrap {
+    background: url('../images/calendar.png') no-repeat center;
+}
+.fifth_block .container .information .three .image_wrap {
+    background: url('../images/cart.png') no-repeat center;
+}
+.fifth_block .container .information .four .image_wrap {
+    background: url('../images/bread_icon.png') no-repeat center;
+}
+.fifth_block .container .information .five .image_wrap {
+    background: url('../images/recycable.png') no-repeat center;
+}
+.fifth_block .container .information .six .image_wrap {
+    background: url('../images/rolling_spin.png') no-repeat center;
+}
+.fifth_block .container .information {
+    margin-bottom: 48px;
+}
+.fifth_block .container h3 {
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-align: center;
+    padding: 66px 0 58px 0;
+}

@@ -1,0 +1,98 @@
+.third_block_main .container .main_info .owl-carousel {
+    display: block;
+    max-width: 750px;
+    margin: 0 auto;
+}
+.third_block_main .container .main_info .owl-carousel .item {
+    text-align: center;
+    margin: 0 11px 30px 11px;
+    -webkit-box-shadow: 0px 6px 9px 0px rgba(2,6,18,0.03);
+            box-shadow: 0px 6px 9px 0px rgba(2,6,18,0.03);
+    height: 283px;
+}
+.third_block_main .container .main_info .owl-carousel .item .card_image {
+    width: 110px;
+    height: 110px;
+    margin: auto;
+} 
+.third_block_main .container .main_info .owl-carousel .owl-nav.disabled {
+    display: block;
+}
+.third_block_main .container .main_info .owl-carousel .owl-dots {
+    text-align: center;
+}
+.third_block_main .container .main_info .owl-carousel .owl-dot {
+    width: 10px;
+    height: 10px;
+    background: #000;
+    border-radius: 50%;
+    margin: 0 4px;
+}
+.third_block_main .container .main_info .owl-carousel .owl-dot.active {
+    background: #000;
+}
+.third_block_main .container .main_info .owl-carousel .owl-prev {
+    width: 16px;
+    height: 27px;
+    background: url('../images/arrow_left.png') no-repeat;
+    position: absolute;
+    top: 86px;
+    left: -60px;
+}
+.third_block_main .container .main_info .owl-carousel .owl-next {
+    width: 16px;
+    height: 27px;
+    background: url('../images/arrow_left.png') no-repeat;
+    -webkit-transform: rotate(179deg);
+        -ms-transform: rotate(179deg);
+            transform: rotate(179deg);
+    position: absolute;
+    top: 86px;
+    right: -60px;
+}
+.third_block_main .container .main_info .owl-carousel .owl-prev:focus, .third_block_main .container .main_info .owl-carousel .owl-next:focus {
+    outline: none;
+}
+.third_block_main .container .main_info .owl-carousel .owl-dot.active{
+    outline: transparent;
+    background: #9D5309;
+}
+
+.third_block_main .container .main_info img {
+    padding-top: 19px;
+    padding-bottom: 16px;
+}
+.third_block_main .container .main_info .name {
+    padding-bottom: 12px;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.35px;
+    color: #0f1417;
+    font-weight: 800;
+    margin: 35px auto 0 auto;
+    max-width: 142px;
+}
+.third_block_main .container .main_info .prop {
+    padding-bottom: 11px;
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+    font-weight: bold;
+}
+.third_block_main .container .main_info .price {
+    padding-bottom: 40px;
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.4px;
+    font-weight: 600;
+}
+
+.third_block_main .container h3 {
+    text-align: center;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    padding: 55px 0 37px 0;
+}
