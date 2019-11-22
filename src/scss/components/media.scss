@@ -132,13 +132,13 @@
     .sixth_block .container .left form .download-button {
         width: 135px;
     }
+    .sixth_block .container .left form {
+        width: 300px;
+    }
 }
 @media screen and (max-width: 320px) {
     .sixth_block .container .left form {
         width: 280px;
-    }
-    .sixth_block .container .left form input[type="email"] {
-        width: 260px;
     }
     .first_block .big_text .big_text1 {
         font-size: 30px;
