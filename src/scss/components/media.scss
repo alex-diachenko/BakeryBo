@@ -75,6 +75,10 @@
     .third_block_main .container .main_info .owl-carousel .owl-dots {
         display: block;
     }
+    .container {
+        padding-right: 8px;
+        padding-left: 8px;
+    }
 }
 @media screen and (max-width: 600px) {
     .fifth_block .container .information>div {

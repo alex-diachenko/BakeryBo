@@ -50,7 +50,7 @@ let gulp = require('gulp'),
       },
       tunnel: false,
       host: 'localhost',
-      port: 9000,
+      port: 9001,
       logPrefix: "Frontend"
 };
 
